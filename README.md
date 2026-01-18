@@ -1,8 +1,3 @@
-# softprojector
+Maintenance fork of legacy projection software, updated for modern macOS compatibility."
 
-> To compile the code, build your project in IDE of your choice, copy the EXE it produces to a folder.
-> Run the following command to compile the EXE into runnable project (Make sure you download windeployqt compiler)
-
-```
-.\windeployqt.exe --qmldir "<ProjectDirectory>" "<PathtoEXE>"
-```
+Soft Projector is the program used for diplaying bible verses and song lyrics at the Russian church I used to do tech ministry for. One time before service after a windows 11 update the program was no longer working and we couldn't do church service. I redownloaded the program and it worked. But each time the computer was restarted the program no longer worked. I forked the github repo with the source code. Figured out how to compile the C++ program using AI. I also needed to get dark mode working, something the dev had added to a github commit but never compiled into an updated version on the website or github downloadable packages. I spent hours to compile it and learned a lot about compiling a Windows EXE. Later on I also compiled it for my Macbook. 
